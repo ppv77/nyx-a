@@ -1,0 +1,4 @@
+>=dev-libs/xmlrpc-c-1.32.05-r1 abyss
+>=dev-libs/nss-3.25-r1 utils
+>=net-libs/libbtbb-2015.10.1 -wireshark-plugins
+>=dev-libs/glib-2.48.2 -dbus
