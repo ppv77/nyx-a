@@ -1,0 +1,2 @@
+>=app-arch/deltarpm-3.6 python
+>=app-arch/rpm-4.11.0.1 python
