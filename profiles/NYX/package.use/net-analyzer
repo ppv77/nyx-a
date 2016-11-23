@@ -1,2 +1,0 @@
->=net-analyzer/rrdtool-1.5.5 graph
->=net-analyzer/wireshark-2.2.1 -qt5 -portaudio adns androiddump caps ciscodump crypt filecaps gtk kerberos libssh randpkt smi sshdump tfshark
