@@ -1,7 +1,0 @@
-~app-benchmarks/ltp-20150903 amd64
-~app-benchmarks/ioping-0.9 amd64
-~app-benchmarks/forkbomb-1.4 amd64
-~app-benchmarks/libc-bench-20110206 amd64
-~app-benchmarks/wrk-3.1.2 amd64
-~app-benchmarks/filebench-1.4.9.1-r1 amd64
-~app-benchmarks/stress-ng-0.06.00 amd64
