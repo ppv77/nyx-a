@@ -1,4 +1,0 @@
->=app-crypt/gnupg-1.4.21 smartcard
->=app-crypt/johntheripper-1.7.9-r6 -cuda -opencl
->=app-crypt/gcr-3.16.0 -gtk
->=app-crypt/pinentry-0.9.5 -gnome-keyring -gtk
