@@ -1,6 +1,6 @@
 <repositories xmlns="" version="1.0">
 <repo quality="experimental" status="unofficial">
-    <name>nyx-alpha</name>
+    <name>nyx-a</name>
     <description lang="en">Calculate Linux NYX alpha overlay</description>
     <homepage>https://github.com/ppv77/nyx-a</homepage>
     <owner type="person">
