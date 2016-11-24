@@ -1,0 +1,15 @@
+<repositories xmlns="" version="1.0">
+<repo quality="experimental" status="unofficial">
+    <name>nyx-alpha</name>
+    <description lang="en">Calculate Linux NYX alpha overlay</description>
+    <homepage>https://github.com/ppv77/nyx-a</homepage>
+    <owner type="person">
+      <email>poul.dio.later@gmail.com</email>
+      <name>Pavel Poznyakov</name>
+    </owner>
+    <source type="git">https://github.com/ppv77/nyx-a.git</source>
+    <source type="git">git://github.com/ppv77/nyx-a.git</source>
+    <source type="git">git@github.com:ppv77/nyx-a.git</source>
+    <feed>https://github.com/ppv77/nyx-a/commits/master.atom</feed>
+</repo>
+</repositories>
