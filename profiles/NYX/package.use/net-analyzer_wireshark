@@ -1,1 +1,1 @@
->=net-analyzer/wireshark-2.2.1 -qt5 -portaudio adns androiddump caps ciscodump crypt filecaps gtk kerberos libssh randpkt smi sshdump tfshark
+>=net-analyzer/wireshark-2.2.1  -portaudio adns androiddump caps ciscodump crypt filecaps gtk kerberos libssh randpkt smi sshdump tfshark
