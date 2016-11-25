@@ -51,8 +51,8 @@ src_compile() {
 	emake \
 		CC="$(tc-getCC)" \
 		KFLAGS="${CPPFLAGS}" \
-		LIBS="-lcrypt -lresolv ${libs}" \
-		LNKFLAGS="${LDFLAGS} -ltinfo" \
+		LIBS="-lcrypt -lresolv -ltinfo ${libs}" \
+		LNKFLAGS="${LDFLAGS}" \
 		linuxa
 }
 
