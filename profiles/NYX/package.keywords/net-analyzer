@@ -41,7 +41,6 @@
 ~net-analyzer/netwox-5.39.0 amd64
 ~net-analyzer/nikto-2.1.5 amd64
 ~net-analyzer/odhcploc-20111021 amd64
-~net-analyzer/ntopng-2.0 amd64
 ~net-analyzer/nipper-0.12.0 amd64
 ~net-analyzer/nsat-1.5-r3 amd64
 ~net-analyzer/portmon-2.0 amd64
