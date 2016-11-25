@@ -31,7 +31,7 @@ USE="${USE} imap mbox"
 
 
 # Net protocols
-USE="${USE} bittorrent ftp idn nfs samba rdesktop"
+USE="${USE} bittorrent ftp idn nfs samba rdesktop sftp"
 
 # Network connections
 USE="${USE} ppp"
