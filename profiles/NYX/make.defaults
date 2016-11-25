@@ -12,7 +12,7 @@ VIDEO_CARDS="amdgpu i915 i965 intel nouveau nv nvidia r100 r200 r300 r600 radeon
 USE="${USE} alsa amr -arts audiofile cdda cue id3tag flac gstreamer mad mikmod mp3 mpeg ogg oggvorbis openal opencore-amr opus portaudio pulseaudio taglib wavpack vorbis vpx"
 
 # Window manager and speciality
-USE="${USE} -gtk -libnotify -semantic-desktop -qt3support -gnome -qt4 -qt5"
+USE="${USE} -gtk -libnotify -semantic-desktop -qt3support -gnome -qt4 -qt5 -desktop"
 
 
 # Hardware
