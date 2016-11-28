@@ -1,1 +1,1 @@
->=net-analyzer/rrdtool-1.5.5 graph
+>=net-analyzer/rrdtool-1.5.5 -graph
