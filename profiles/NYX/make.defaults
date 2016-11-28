@@ -1,7 +1,7 @@
 # Image support
 USE="${USE} exif gif jpeg jpeg2k png tiff -mng -graph"
 # Image support
-USE="${USE} -X fdftk gd imagemagick openexr pdf png raw svg xmp webp wmf wxwindows"
+USE="${USE} -X fdftk gd imagemagick openexr pdf png raw -svg xmp webp wmf wxwindows"
 
 # Video
 USE="${USE} a52 aac -aalib avi cddb dv encode faac ffmpeg flash lzo matroska mplayer musepack real sdl speex srt -svga tga quicktime theora vaapi v4l v4l2 vidix win32codecs xanim x264 x265 xinerama xv xvid xvmc"
