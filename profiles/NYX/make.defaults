@@ -1,5 +1,5 @@
 # Image support
-USE="${USE} exif gif jpeg jpeg2k png tiff -mng"
+USE="${USE} exif gif jpeg jpeg2k png tiff -mng -graph"
 # Image support
 USE="${USE} -X fdftk gd imagemagick openexr pdf png raw svg xmp webp wmf wxwindows"
 
