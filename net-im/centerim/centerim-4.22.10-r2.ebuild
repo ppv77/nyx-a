@@ -103,11 +103,12 @@ src_configure() {
 		$(use_enable nls) \
 		$(use_enable rss) \
 		$(use_enable yahoo) \
+		LIBS="${libs} -ltinfo" \
 		|| die "econf failed"
 }
 
 src_install () {
-	emake LIBS="${libs} -ltinfo" DESTDIR="${D}" install || die "emake install failed"
+	emake DESTDIR="${D}" install || die "emake install failed"
 
 	dodoc AUTHORS ChangeLog FAQ README THANKS TODO
 }
