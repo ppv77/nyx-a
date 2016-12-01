@@ -1,0 +1,11 @@
+--- horst-5.0/Makefile	2016-07-01 13:02:29.000000000 +0300
++++ horst-5.0/Makefile	2016-12-01 10:17:25.040590016 +0300
+@@ -51,7 +51,7 @@
+ 	radiotap/radiotap.o			   \
+ 	util.o					   \
+ 	wlan_util.o
+-LIBS=-lncurses -lm
++LIBS=-lncurses -lm -ltinfo
+ CFLAGS+=-std=gnu99 -Wall -Wextra -g -I.
+ 
+ ifeq ($(OSX),1)
