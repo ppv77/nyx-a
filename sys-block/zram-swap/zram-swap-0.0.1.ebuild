@@ -3,11 +3,11 @@
 # $Id$
 
 EAPI=5
-inherit  eutils git-2
+inherit  eutils
 
 DESCRIPTION="Create compressed swap with zram"
 HOMEPAGE="https://github.com/ppv77/zram-swap/"
-EGIT_REPO_URI="https://github.com/ppv77/${PN}.git"
+SRC_URI="https://github.com/ppv77/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -22,3 +22,7 @@ src_install() {
 	doinitd init.d/*
 }
 
+pkg_postinst() {
+    elog "Add to boot runlevel"
+    elog "rc-update add zram-swap boot."
+}
