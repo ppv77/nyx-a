@@ -1,0 +1,11 @@
+--- Makefile	2016-12-01 17:15:21.011425479 +0300
++++ Makefile1	2016-12-02 10:21:18.881161733 +0300
+@@ -12,7 +12,7 @@
+ override CFLAGS   += -Wno-sign-compare
+ override CPPFLAGS += `$(PKG_CONFIG) --cflags glib-2.0`
+ LDFLAGS ?= -Wl,--as-needed
+-LDADD    = `$(PKG_CONFIG) --libs glib-2.0` -lncursesw
++LDADD    = `$(PKG_CONFIG) --libs glib-2.0` -lncursesw -ltinfo
+ 
+ OBJS= latencytop.o text_display.o translate.o fsync.o
+ 
