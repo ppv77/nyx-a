@@ -1,6 +1,6 @@
 # Calculate name=world format=world
 
-#?in(os_linux_pkglist, NYX_)!=#
+#?in(os_linux_pkglist, NYX)!=#
 #app-arch/advancecomp
 #app-arch/afio
 app-arch/alien

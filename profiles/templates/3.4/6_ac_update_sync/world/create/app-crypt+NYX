@@ -1,5 +1,5 @@
 # Calculate name=world format=world
-#?in(os_linux_pkglist, NYX_)!=#
+#?in(os_linux_pkglist, NYX)!=#
 app-crypt/WiRouterKeyRec
 #app-crypt/acme
 #app-crypt/acr38u
