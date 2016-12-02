@@ -1,0 +1,34 @@
+# Calculate name=world format=world
+#?in(os_linux_pkglist, NYX_)!=#
+#app-forensics/afflib
+app-forensics/afl
+app-forensics/aide
+#app-forensics/air
+#app-forensics/autopsy
+app-forensics/chkrootkit
+app-forensics/cmospwd
+app-forensics/examiner
+app-forensics/foremost
+app-forensics/galleta
+#app-forensics/honggfuzz
+#app-forensics/libbfio
+#app-forensics/libewf
+app-forensics/lynis
+app-forensics/mac-robber
+app-forensics/magicrescue
+app-forensics/memdump
+app-forensics/openscap
+#app-forensics/ovaldi
+app-forensics/pasco
+#app-forensics/quickfuzz
+########app-forensics/radamsa
+#######app-forensics/rdd
+app-forensics/rifiuti
+app-forensics/rkhunter
+app-forensics/scalpel
+app-forensics/sleuthkit
+#############app-forensics/unhide
+app-forensics/volatility
+app-forensics/yasat
+app-forensics/zzuf
+#in#
