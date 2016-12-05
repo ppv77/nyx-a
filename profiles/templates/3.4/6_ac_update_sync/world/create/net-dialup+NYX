@@ -1,5 +1,5 @@
 # Calculate name=world format=world
-#?in(os_linux_pkglist, NYX)!=#
+#?in(os_linux_pkglist, NYX, PHO)!=#
 #net-dialup/accel-ppp
 #net-dialup/capi4k-utils
 #net-dialup/cistronradius

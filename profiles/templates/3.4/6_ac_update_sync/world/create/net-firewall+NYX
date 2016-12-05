@@ -1,5 +1,5 @@
 # Calculate name=world format=world
-#?in(os_linux_pkglist, NYX)!=#
+#?in(os_linux_pkglist, NYX, PHO)!=#
 #net-firewall/arno-iptables-firewall
 net-firewall/arptables
 net-firewall/conntrack-tools

@@ -1,5 +1,5 @@
 # Calculate name=world format=world
-#?in(os_linux_pkglist, NYX)!=#
+#?in(os_linux_pkglist, NYX, PHO)!=#
 #net-dns/avahi
 #net-dns/bind
 #net-dns/bind-dns-keygen

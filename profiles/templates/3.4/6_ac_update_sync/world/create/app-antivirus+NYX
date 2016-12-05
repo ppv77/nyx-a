@@ -1,6 +1,6 @@
 # Calculate name=world format=world
 
-#?in(os_linux_pkglist, NYX)!=#
+#?in(os_linux_pkglist, NYX, PHO)!=#
 app-antivirus/clamav
 app-antivirus/clamav-unofficial-sigs
 #in#

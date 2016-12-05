@@ -1,5 +1,5 @@
 # Calculate name=world format=world
-#?in(os_linux_pkglist, NYX)!=#
+#?in(os_linux_pkglist, NYX, PHO)!=#
 #net-wireless/adm8211
 net-wireless/aircrack-ng
 #net-wireless/airpwn

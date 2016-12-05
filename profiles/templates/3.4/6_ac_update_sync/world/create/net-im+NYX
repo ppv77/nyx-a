@@ -1,5 +1,5 @@
 # Calculate name=world format=world
-#?in(os_linux_pkglist, NYX)!=#
+#?in(os_linux_pkglist, NYX, PHO)!=#
 #net-im/ayttm
 #net-im/bitlbee
 #net-im/bitlbee-steam

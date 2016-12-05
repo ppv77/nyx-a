@@ -1,5 +1,5 @@
 # Calculate name=world format=world
-#?in(os_linux_pkglist, NYX)!=#
+#?in(os_linux_pkglist, NYX, PHO)!=#
 #app-admin/389-console
 #app-admin/abrt
 #app-admin/aerospike-amc-community
