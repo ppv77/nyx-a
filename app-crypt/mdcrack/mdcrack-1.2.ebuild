@@ -18,6 +18,7 @@ IUSE="ncurses"
 src_prepare() {
 	epatch "${FILESDIR}"/${P}-gcc4.diff \
 		"${FILESDIR}"/${P}-asneeded.patch \
+		"${FILESDIR}"/${P}-tinfo.patch \
 		"${FILESDIR}"/${P}-remove-interactive-test.diff
 
 	use ncurses || \
