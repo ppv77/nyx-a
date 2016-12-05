@@ -18,8 +18,8 @@ IUSE="ncurses"
 src_prepare() {
 	epatch "${FILESDIR}"/${P}-gcc4.diff \
 		"${FILESDIR}"/${P}-asneeded.patch \
-		"${FILESDIR}"/${P}-tinfo.patch \
-		"${FILESDIR}"/${P}-remove-interactive-test.diff
+		"${FILESDIR}"/${P}-remove-interactive-test.diff \
+		"${FILESDIR}"/${P}-tinfo.patch
 
 	use ncurses || \
 		sed -i -e 's/^NCURSES/#NCURSES/g' \
@@ -30,7 +30,7 @@ src_prepare() {
 }
 
 src_compile() {
-	emake LIBS="${LIBS} -ltinfo" CC="$(tc-getCC)" little || die "emake failed"
+	emake CC="$(tc-getCC)" little || die "emake failed"
 }
 
 src_test() {
