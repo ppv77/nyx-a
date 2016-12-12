@@ -126,6 +126,5 @@ sys-fs/xfsprogs
 #sys-fs/yaffs2-utils
 sys-fs/yaffs2utils
 sys-fs/zerofree
-sys-fs/zfs
-#sys-fs/zfs-kmod
+#sys-fs/zfs
 #in#
