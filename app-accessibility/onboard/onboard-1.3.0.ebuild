@@ -1,42 +1,78 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
-EAPI=2
+EAPI=6
 
-PYTHON_DEPEND=2
-SUPPORT_PYTHON_ABIS=1
-RESTRICT_PYTHON_ABIS='2.4 2.5 3.*'
+PYTHON_COMPAT=( python3_{3,4,5} )
 
-inherit gnome2-utils distutils versionator
+inherit distutils-r1 gnome2-utils versionator
 
-DESCRIPTION="Simple on-screen Keyboard with macros and easy layout creation"
+DESCRIPTION="Onscreen keyboard for tablet PC users and mobility impaired users"
 HOMEPAGE="https://launchpad.net/onboard"
-SRC_URI="http://launchpad.net/${PN}/$(get_version_component_range 1-2)/${PV}/+download/${P}.tar.gz"
+SRC_URI="https://launchpad.net/${PN}/$(get_version_component_range 1-2)/${PV}/+download/${P}.tar.gz"
 
-LICENSE="GPL-2"
+# po/* are licensed under BSD 3-clause
+LICENSE="GPL-3+ BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
-IUSE=""
+KEYWORDS=""
 
-DEPEND="dev-python/python-distutils-extra"
-RDEPEND="dev-python/gconf-python
-	dev-python/pyxml
-	dev-python/python-virtkey
-	x11-libs/cairo[svg]"
+COMMON_DEPEND="app-text/hunspell:=
+	dev-libs/dbus-glib
+	dev-python/dbus-python[${PYTHON_USEDEP}]
+	dev-python/pycairo[${PYTHON_USEDEP}]
+	dev-python/pygobject:3[${PYTHON_USEDEP}]
+	dev-python/python-distutils-extra[${PYTHON_USEDEP}]
+	gnome-base/dconf
+	gnome-base/gsettings-desktop-schemas
+	gnome-base/librsvg
+	media-libs/libcanberra
+	sys-apps/dbus
+	x11-libs/gdk-pixbuf
+	x11-libs/gtk+:3[introspection]
+	x11-libs/libX11
+	x11-libs/libXi
+	x11-libs/libXtst
+	x11-libs/libwnck:3
+	x11-libs/pango"
+DEPEND="${COMMON_DEPEND}
+	dev-util/intltool"
+RDEPEND="${COMMON_DEPEND}
+	app-accessibility/at-spi2-core
+	app-text/iso-codes
+	gnome-extra/mousetweaks
+	dev-libs/libappindicator:3[introspection]
+	x11-libs/libxkbfile"
 
-PYTHON_MODNAME="Onboard"
+RESTRICT="mirror"
+
+# These are using a functionality of distutils-r1.eclass
+DOCS=( AUTHORS CHANGELOG HACKING NEWS README onboard-defaults.conf.example )
+PATCHES=( "${FILESDIR}/${P}-remove-duplicated-docs.patch" )
+
+src_prepare() {
+	distutils-r1_src_prepare
+	eapply_user
+}
+
+src_install() {
+	distutils-r1_src_install
+
+	# Delete duplicated docs installed by original dustutils
+	rm "${D}"/usr/share/doc/onboard/*
+}
 
 pkg_preinst() {
 	gnome2_icon_savelist
+	gnome2_schemas_savelist
 }
 
 pkg_postinst() {
-	distutils_pkg_postinst
 	gnome2_icon_cache_update
+	gnome2_schemas_update
 }
 
 pkg_postrm() {
-	distutils_pkg_postrm
 	gnome2_icon_cache_update
+	gnome2_schemas_update
 }
