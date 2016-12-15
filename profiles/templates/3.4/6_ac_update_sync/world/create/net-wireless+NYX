@@ -52,7 +52,7 @@ net-wireless/horst
 net-wireless/mdk
 #net-wireless/mfoc
 #net-wireless/multimode
-net-wireless/ndiswrapper
+#net-wireless/ndiswrapper
 #net-wireless/neard
 #net-wireless/openbsc
 #net-wireless/openggsn
