@@ -1,0 +1,11 @@
+# Calculate name=world format=world
+#?in(os_linux_pkglist, PHO)!=#
+#app-benchmarks/acovea
+#app-benchmarks/acovea-gtk
+app-benchmarks/gtkperf
+#app-benchmarks/jmeter
+#app-benchmarks/libc-bench
+#app-benchmarks/nbench
+#app-benchmarks/os-autoinst
+#app-benchmarks/volanomark
+#in#

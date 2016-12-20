@@ -1,4 +1,6 @@
 # Calculate name=world format=world
+
 #?in(os_linux_pkglist, NYX, PHO)!=#
-dev-util/ccache
+app-emulation/open-vm-tools
 #in#
+
