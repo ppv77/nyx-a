@@ -89,7 +89,7 @@ app-crypt/onak
 #app-crypt/openssl-blacklist
 #app-crypt/openssl-tpm-engine
 #app-crypt/openvpn-blacklist
-#app-crypt/ophcrack
+app-crypt/ophcrack
 #app-crypt/ophcrack-tables
 app-crypt/osslsigncode
 app-crypt/p11-kit
