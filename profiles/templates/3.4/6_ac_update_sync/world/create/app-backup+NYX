@@ -12,7 +12,7 @@ app-backup/bacula
 #app-backup/borgbackup
 app-backup/boxbackup
 app-backup/btrbk
-#############app-backup/burp
+app-backup/burp
 app-backup/ccollect
 app-backup/cdbackup
 app-backup/cdbkup
