@@ -6,7 +6,6 @@ app-backup/backintime
 #app-backup/bareos
 app-backup/borgbackup
 #app-backup/bup
-#app-backup/burp
 app-backup/deja-dup
 #app-backup/dirvish
 app-backup/duplicity
