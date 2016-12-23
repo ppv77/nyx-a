@@ -25,7 +25,7 @@ net-analyzer/braa
 net-analyzer/bro
 #net-analyzer/bsnmp
 #net-analyzer/bwbar
-#net-analyzer/bwm-ng
+net-analyzer/bwm-ng
 net-analyzer/bwmon
 net-analyzer/bwping
 #net-analyzer/cacti

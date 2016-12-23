@@ -21,13 +21,13 @@ app-shells/fish
 #app-shells/mpibash
 #app-shells/mpv-bash-completion
 #app-shells/pdmenu
-#app-shells/pdsh
+app-shells/pdsh
 #app-shells/posh
 #app-shells/psh
 #app-shells/push
 #app-shells/quoter
 #app-shells/rc
-#app-shells/rrs
+app-shells/rrs
 #app-shells/rssh
 #app-shells/rust-zshcomp
 #app-shells/sash

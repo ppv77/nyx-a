@@ -24,7 +24,7 @@ app-portage/elogviewer
 #app-portage/genlop
 #app-portage/gentoopm
 #app-portage/getdelta
-#app-portage/gpytage
+app-portage/gpytage
 #app-portage/gpyutils
 #app-portage/grs
 #app-portage/gs-elpa
