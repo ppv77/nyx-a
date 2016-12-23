@@ -36,5 +36,5 @@ app-backup/tarsnap
 #app-backup/tob
 #app-backup/tsm
 #app-backup/untangle-https-backup
-app-backup/vzdump
+#app-backup/vzdump
 #in#

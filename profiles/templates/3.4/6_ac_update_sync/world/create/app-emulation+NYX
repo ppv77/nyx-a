@@ -2,5 +2,10 @@
 
 #?in(os_linux_pkglist, NYX, PHO)!=#
 app-emulation/open-vm-tools
+app-emulation/docker
+app-emulation/lxc
+app-emulation/qemu-guest-agent
+app-emulation/runc
+app-emulation/spice
 #in#
 
