@@ -1,0 +1,11 @@
+--- Makefile	2016-12-06 02:50:22.617630572 +0300
++++ Makefile_new	2016-12-06 02:50:58.838383543 +0300
+@@ -55,7 +55,7 @@
+ NCURSES=-DNCURSES 
+ 
+ #LDFLAGS=
+-LIBS=-lncurses
++LIBS=-lncurses -ltinfo
+ 
+ # Debugging 
+ DEBUG=

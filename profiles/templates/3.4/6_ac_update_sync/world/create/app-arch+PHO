@@ -1,0 +1,22 @@
+# Calculate name=world format=world
+#?in(os_linux_pkglist, PHO)!=#
+#app-arch/advancecomp
+#app-arch/afio
+#app-arch/bsdsfv
+#app-arch/createrepo
+app-arch/engrampa
+app-arch/file-roller
+#app-arch/gnome-autoar
+#app-arch/gtk-splitter
+#app-arch/libpar2
+#app-arch/ncompress
+app-arch/pdv
+#app-arch/stuffit
+app-arch/tardy
+#app-arch/unadf
+#app-arch/unar
+#app-arch/undms
+#app-arch/upx-bin
+#app-arch/xdms
+#app-arch/zstd
+#in#
