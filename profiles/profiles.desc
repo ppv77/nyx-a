@@ -10,5 +10,4 @@
 # AMD64 Profiles
 amd64		SCO/amd64					stable
 amd64		NYX/amd64					stable
-amd64		PHO/amd64					stable
 # vim: set ts=8
