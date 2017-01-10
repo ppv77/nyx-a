@@ -1,1 +1,0 @@
-# Calculate link=/etc/init.d/zram-swap symbolic ini(runlevels.zram-swap)!=on&&ini(runlevels.zram-swap,on)==||grep(/var/lib/calculate/-runlevels-zram-swap,/zram-swap)!=

@@ -1,3 +1,0 @@
-# Calculate comment=# protected
-FEATURES="${FEATURES} buildpkg "
-
