@@ -1,4 +1,4 @@
 # Calculate name=world format=world
-#?in(os_linux_pkglist, SCO, NYX, PHO)!=#
+#?in(os_linux_pkglist, NYX, PHO)!=#
 dev-util/ccache
 #in#
