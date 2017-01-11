@@ -1,0 +1,37 @@
+# Calculate name=world format=world
+#?in(os_linux_pkglist, PHO)!=#
+app-cdr/acetoneiso
+#app-cdr/backlite
+#app-cdr/bashburn
+app-cdr/brasero
+#app-cdr/burncdda
+#app-cdr/cdck
+#app-cdr/cdcover
+#app-cdr/cdemu
+#app-cdr/cdemu-daemon
+#app-cdr/cdlabelgen
+#app-cdr/cdrdao
+#app-cdr/cdrkit
+#app-cdr/cdw
+#app-cdr/cue2toc
+#app-cdr/disc-cover
+#app-cdr/dvdisaster
+#app-cdr/dvdshrink
+app-cdr/gcdemu
+app-cdr/graveman
+#app-cdr/gtkcdlabel
+app-cdr/isomaster
+#app-cdr/k3b
+#app-cdr/k9copy
+#app-cdr/kcdemu
+#app-cdr/mp3burn
+#app-cdr/multicd
+#app-cdr/nero
+#app-cdr/pburn
+#app-cdr/plextor-tool
+app-cdr/qpxtool
+#app-cdr/recorder
+#app-cdr/tkdvd
+#app-cdr/xcdroast
+#app-cdr/dumpet
+#in#

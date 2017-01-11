@@ -1,0 +1,32 @@
+# Calculate name=world format=world
+#?in(os_linux_pkglist, NYX, PHO)!=#
+#net-ftp/atftp
+#net-ftp/axyftp
+#net-ftp/bareftp
+net-ftp/cmdftp
+#net-ftp/filezilla
+#net-ftp/frox
+net-ftp/ftp
+#net-ftp/ftpbase
+#net-ftp/gftp
+#net-ftp/gproftpd
+#net-ftp/lftp
+net-ftp/linksys-tftp
+net-ftp/ncftp
+#net-ftp/netkit-ftpd
+net-ftp/oftpd
+#net-ftp/oneclickftp
+#net-ftp/proftpd
+#net-ftp/profxp
+#net-ftp/pure-ftpd
+#net-ftp/pureadmin
+net-ftp/pybootd
+#net-ftp/qshare
+#net-ftp/scythia
+net-ftp/tftp-hpa
+#net-ftp/tlswrap
+#net-ftp/tnftp
+#net-ftp/vsftpd
+#net-ftp/weex
+#net-ftp/yafc
+#in#
