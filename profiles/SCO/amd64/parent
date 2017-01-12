@@ -1,3 +1,4 @@
-../../../../../../../../usr/portage/profiles/default/linux/amd64/13.0
-../../../../calculate/profiles
+#../../../../../../../../usr/portage/profiles/default/linux/amd64/13.0
+#../../../../calculate/profiles
+../../../../calculate/profiles/base/desktop/amd64
 ..
