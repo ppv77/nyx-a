@@ -1,8 +1,0 @@
-# Calculate name=world format=world
-#?in(os_linux_pkglist, NYX)!=#
-!app-misc/xorg-meta
-!app-admin/syslog-ng
-!app-admin/logrotate
-!sys-process/vixie-cron
-#in#
-

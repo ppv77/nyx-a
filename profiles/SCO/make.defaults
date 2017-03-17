@@ -2,3 +2,5 @@ USE="-gtk -gnome-keyring -X -opengl -svg -webkit -desktop -qt4 -qt5 -introspecti
 L10N="en -be -be_BY -bg -bg_BG -bs -cs -cs_CZ -da -da_DK -de -de_DE en_GB -es -es_AR -es_ES -es_LA -es_UY -es_VE -et -et_EE -fi -fi_FI -fr -fr_CA -fr_FR -hr -hr_HR -hu -hu_HU -it -it_IT -kk -kk_KZ -lt -lt_LT -lv -lv_LV -nl -nl_NL -pl -pl_PL -pt -pt_BR -pt_PT -ro -ro_RO ru ru_RU -sk -sk_SK -sl -sl_SI -sq -sq_AL -sr -sr_RS -sv -sv_SE -uk -uk_UA -de-1901 -en-GB -pt-BR"
 LINGUAS="en -be -be_BY -bg -bg_BG -bs -cs -cs_CZ -da -da_DK -de -de_DE en_GB -es -es_AR -es_ES -es_LA -es_UY -es_VE -et -et_EE -fi -fi_FI -fr -fr_CA -fr_FR -hr -hr_HR -hu -hu_HU -it -it_IT -kk -kk_KZ -lt -lt_LT -lv -lv_LV -nl -nl_NL -pl -pl_PL -pt -pt_BR -pt_PT -ro -ro_RO ru ru_RU -sk -sk_SK -sl -sl_SI -sq -sq_AL -sr -sr_RS -sv -sv_SE -uk -uk_UA"
 VIDEO_CARDS="vmware"
+USE="${USE} lzma lzo lz4"
+USE="${USE} nls"
