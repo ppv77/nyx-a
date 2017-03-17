@@ -2,3 +2,4 @@
 # Removed unnecessary dependence
 # -----------------------------------------
 sys-apps/calculate-utils -console -pxe
+sys-apps/file python
