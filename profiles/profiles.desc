@@ -9,6 +9,7 @@
 
 # AMD64 Profiles
 amd64		NYX/amd64					stable
+amd64		Stage4/amd64					stable
 amd64		SCO/amd64					stable
 
 # x86 Profiles
