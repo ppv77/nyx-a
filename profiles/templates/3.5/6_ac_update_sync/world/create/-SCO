@@ -1,6 +1,0 @@
-# Calculate name=world format=world
-#?in(os_linux_pkglist, SCO)!=#
-!media-gfx/gfxboot-themes-calculate
-!media-gfx/grub-splashes-calculate
-#in#
-
